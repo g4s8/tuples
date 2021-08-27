@@ -6,6 +6,9 @@ Object oriented Java tuples.
  - Strong encapsulation of tuples data
  - Tuples are immutable
 
+[![CI checks](https://github.com/g4s8/tuples/actions/workflows/ci-checks.yml/badge.svg)](https://github.com/g4s8/tuples/actions/workflows/ci-checks.yml)
+[![Maven Central](https://img.shields.io/maven-central/v/wtf.g4s8/tuples)](https://maven-badges.herokuapp.com/maven-central/wtf.g4s8/tuples),
+
 ### Usage
 
 Add dependency
