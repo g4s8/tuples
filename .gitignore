@@ -1,0 +1,6 @@
+.classpath
+.gitstrap.yml
+.project
+.settings/*
+.vscode/*
+target/*
