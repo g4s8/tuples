@@ -1,13 +1,13 @@
 Object oriented Java tuples.
 
- - No ugly accessors ~`pair.get_1()`~
- - No numbers in class or method names ~`new Tuple3()`~
+ - No ugly accessors or class/method names ~`pair._1()`~, ~`new Tuple3()`~
  - All tuple types are interfaces
  - Strong encapsulation of tuples data
- - Tuples are immutable
+ - Standard tuple implementations are immutable
+ - Built-in support of `equals`, `hashCode`, `toString`, `Serializable` in standard implementation
 
 [![CI checks](https://github.com/g4s8/tuples/actions/workflows/ci-checks.yml/badge.svg)](https://github.com/g4s8/tuples/actions/workflows/ci-checks.yml)
-[![Maven Central](https://img.shields.io/maven-central/v/wtf.g4s8/tuples)](https://maven-badges.herokuapp.com/maven-central/wtf.g4s8/tuples),
+[![Maven Central](https://img.shields.io/maven-central/v/wtf.g4s8/tuples)](https://maven-badges.herokuapp.com/maven-central/wtf.g4s8/tuples)
 
 ### Usage
 
@@ -76,6 +76,8 @@ Each tuple type has factory method `of(...)`:
 Also, there are `zip` methods available to zip two or more lists:
  - `Pair.zip(Iterable<T>, Iterable<U>) -> Iterable<Pair<T, U>>`
  - `Triplet.zip(Iterable<T>, Iterable<U>, Iterable<V>) -> Iterable<Triplet<T, U, V>>`
+
+### Optional
 
 Unit tuple has `maybe` method to convert from optional:
  - `Unit.maybe(Optional<T>) -> Optional<Unit<T>>`
