@@ -1,6 +1,7 @@
 Object oriented Java tuples.
 
- - No ugly accessors or class/method names ~`pair._1()`~, ~`new Tuple3()`~
+ - No data accessors
+ - No ugly class or method names ~`pair._1()`~, ~`new Tuple3()`~
  - All tuple types are interfaces
  - Strong encapsulation of tuples data
  - Standard tuple implementations are immutable
